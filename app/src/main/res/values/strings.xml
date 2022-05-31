@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MovieAppRetrofit</string>
+    <string name="api_key">dcd7aabdb1af627883eda1e300b05ff8</string>
 </resources>
