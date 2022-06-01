@@ -189,6 +189,7 @@ public class Movie extends BaseObservable implements Parcelable {
         this.video = video;
         notifyPropertyChanged(BR.video);
     }
+
     @Bindable
     public Double getVoteAverage() {
         return voteAverage;

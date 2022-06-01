@@ -4,25 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        
+
         <variable
             name="movie"
             type="com.example.movieappretrofit.model.Movie" />
 
-
     </data>
 
-    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity"
-        android:id="@+id/swipe_layout">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+        tools:context=".MovieActivity">
 
 
 
-
-    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>
