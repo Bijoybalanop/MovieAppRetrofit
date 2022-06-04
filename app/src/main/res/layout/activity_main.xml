@@ -17,10 +17,24 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity"
         android:id="@+id/swipe_layout">
-       <androidx.recyclerview.widget.RecyclerView
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
-           android:id="@+id/movieRV"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.movieappretrofit.MainActivity"
+            tools:showIn="@layout/activity_main"
+            android:layout_marginTop="15dp">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/movieRV"
+                android:clipToPadding="false"
+                android:scrollbars="vertical"/>
+
+        </RelativeLayout>
 
 
 
